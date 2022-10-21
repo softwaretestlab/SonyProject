@@ -18,7 +18,7 @@ public class AT04_GlobalVariables {
 
     @Test
     public void test06(){
-        //local variables
+        //local variabless
         int k=i+j;
         System.out.println("k value is : "+k);
         System.out.println("abc value is : "+abc);
