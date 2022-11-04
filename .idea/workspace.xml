@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a4ad283-2936-4c22-a8cd-15b2d39c633b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaLearning/AT13_UserDir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT01_constructor01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT02_constructor02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT03_Encapsulation01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT04_Encapsulation02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT05_InHeritance01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT06_InHeritance02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT07_InHeritance03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT01_ForLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT02_WhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT03_DoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT04_If_Learning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT05_IfElse_Learning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT06_ElseIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT06_SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT01_NavigateTitleAssertScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT02_LocatorsLearning.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/encodings.xml" afterDir="false" />
@@ -50,6 +36,16 @@
       <change afterPath="$PROJECT_DIR$/../TestNgProject/src/test/java/StepDefinations/hooksLearning.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestNgProject/src/test/java/StepDefinations/sampleTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestNgProject/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/src/test/java/GitLearning/newtogit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VenkatGitLearning/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../VenkatProject/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../VenkatProject/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../VenkatProject/.idea/encodings.xml" afterDir="false" />
@@ -102,8 +98,10 @@
       <change beforePath="$PROJECT_DIR$/../RamyaProject/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../RamyaProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RamyaProject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JavaLearning/AT13_HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaLearning/AT13_HashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/JavaLearning/AT13_HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaLearning/AT13_HashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT07_InHeritance03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT07_InHeritance03.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SuperProject01/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SuperProject01/.idea/vcs.xml" afterDir="false" />
@@ -211,65 +209,64 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AT07_InHeritance03.inhMethod06">
-    <configuration name="AT04_Encapsulation02.envMethod03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AT02_LocatorsLearning">
+    <configuration name="AT01_NavigateTitleAssertScreenshot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SonyLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOPSconcepts.*" />
+          <option name="PATTERN" value="SeleniumLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT04_Encapsulation02" />
-      <option name="METHOD_NAME" value="envMethod03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT06_InHeritance02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SonyLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaOOPSconcepts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT06_InHeritance02" />
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT01_NavigateTitleAssertScreenshot" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT06_InHeritance02.inhMethod03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT01_NavigateTitleAssertScreenshot.Navigate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SonyLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOPSconcepts.*" />
+          <option name="PATTERN" value="SeleniumLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT06_InHeritance02" />
-      <option name="METHOD_NAME" value="inhMethod03" />
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT01_NavigateTitleAssertScreenshot" />
+      <option name="METHOD_NAME" value="Navigate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT07_InHeritance03.inhMethod05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT02_LocatorsLearning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SonyLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOPSconcepts.*" />
+          <option name="PATTERN" value="SeleniumLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT07_InHeritance03" />
-      <option name="METHOD_NAME" value="inhMethod05" />
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT02_LocatorsLearning" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT02_LocatorsLearning.LocatorsSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SonyLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT02_LocatorsLearning" />
+      <option name="METHOD_NAME" value="LocatorsSelenium" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AT02_LocatorsLearning" />
+        <item itemvalue="JUnit.AT02_LocatorsLearning.LocatorsSelenium" />
+        <item itemvalue="JUnit.AT01_NavigateTitleAssertScreenshot.Navigate" />
+        <item itemvalue="JUnit.AT01_NavigateTitleAssertScreenshot" />
         <item itemvalue="JUnit.AT07_InHeritance03.inhMethod06" />
-        <item itemvalue="JUnit.AT07_InHeritance03.inhMethod05" />
-        <item itemvalue="JUnit.AT06_InHeritance02.inhMethod03" />
-        <item itemvalue="JUnit.AT06_InHeritance02" />
-        <item itemvalue="JUnit.AT04_Encapsulation02.envMethod03" />
       </list>
     </recent_temporary>
   </component>
