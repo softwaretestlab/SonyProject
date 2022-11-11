@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef752f06-ee3f-4156-8a93-4c8fe2caf304" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT04_CssSelectorLearning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT05_listofLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT06_iFrames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT07_NavigateBackFront.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT08_SwitchTabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT09_DropDownSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT10_RadioButtonSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT12_WebTables.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/encodings.xml" afterDir="false" />
@@ -107,7 +103,7 @@
       <change beforePath="$PROJECT_DIR$/../RamyaProject/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../RamyaProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RamyaProject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT03_XpathLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT03_XpathLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT09_DropDownSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT09_DropDownSelect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SuperProject01/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SuperProject01/.idea/vcs.xml" afterDir="false" />
@@ -212,38 +208,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AT09_DropDownSelect.iframeReg">
-    <configuration name="AT06_iFrames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SonyLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumLearning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumLearning" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT06_iFrames" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT06_iFrames.iframeListSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SonyLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumLearning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumLearning" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT06_iFrames" />
-      <option name="METHOD_NAME" value="iframeListSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AT12_WebTables.table">
     <configuration name="AT07_NavigateBackFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SonyLearningProject" />
       <extension name="coverage">
@@ -291,13 +256,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AT10_RadioButtonSelect.NavHn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SonyLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT10_RadioButtonSelect" />
+      <option name="METHOD_NAME" value="NavHn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT12_WebTables.table" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SonyLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT12_WebTables" />
+      <option name="METHOD_NAME" value="table" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AT12_WebTables.table" />
+        <item itemvalue="JUnit.AT10_RadioButtonSelect.NavHn" />
         <item itemvalue="JUnit.AT09_DropDownSelect.iframeReg" />
         <item itemvalue="JUnit.AT08_SwitchTabs.SwitchTabLearn" />
         <item itemvalue="JUnit.AT07_NavigateBackFront" />
-        <item itemvalue="JUnit.AT06_iFrames.iframeListSelect" />
-        <item itemvalue="JUnit.AT06_iFrames" />
       </list>
     </recent_temporary>
   </component>
