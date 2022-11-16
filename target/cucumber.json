@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-16T08:08:37.067Z",
+        "line": 3,
+        "name": "Navigate to HN website",
+        "description": "",
+        "id": "hn-homepage;navigate-to-hn-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7042252700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open browser and enter url and navigate to HN website",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToHNwebsite.open_browser_and_enter_url_and_navigate_to_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104650500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get title and assert",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToHNwebsite.get_title_and_assert()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-16T08:08:44.299Z",
+        "line": 8,
+        "name": "Login to webpage",
+        "description": "",
+        "id": "hn-homepage;login-to-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter username",
+            "match": {
+              "location": "StepDefinations.SD02_LoginToWebPage.enter_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter password",
+            "match": {
+              "location": "StepDefinations.SD02_LoginToWebPage.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on login button",
+            "match": {
+              "location": "StepDefinations.SD02_LoginToWebPage.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "should be on login screen",
+            "match": {
+              "location": "StepDefinations.SD02_LoginToWebPage.should_be_on_login_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@SmokeTesting"
+          }
+        ]
+      }
+    ],
+    "name": "HN Homepage",
+    "description": "",
+    "id": "hn-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/FF01_NavigateToHNwebsite.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
