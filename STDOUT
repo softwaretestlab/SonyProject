@@ -1,12 +1,15 @@
 
-@Regression
-Scenario: Navigate to HN website                              [90m# src/test/java/FeatureFile/FF01_NavigateToHNwebsite.feature:3[0m
-  [32mGiven [0m[32mopen browser and enter url and navigate to HN website[0m [90m# StepDefinations.SD01_NavigateToHNwebsite.open_browser_and_enter_url_and_navigate_to_hn_website()[0m
-  [32mThen [0m[32mget title and assert[0m                                   [90m# StepDefinations.SD01_NavigateToHNwebsite.get_title_and_assert()[0m
+@soni
+Scenario Outline: Create an account with valid data                       [90m# src/test/java/FeatureFile/FF03_CreateAnAccount.feature:8[0m
+  [32mGiven [0m[32muser navigates to Create and account screen[0m                       [90m# StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()[0m
+  [32mThen [0m[32mEnter data [0m[32m[1m"FirstName01"[0m[32m, [0m[32m[1m"LastName01"[0m[32m, [0m[32m[1m"EmailAddress01@gmail.com"[0m [90m# StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)[0m
 
-@Regression @SmokeTesting
-Scenario: Login to webpage       [90m# src/test/java/FeatureFile/FF01_NavigateToHNwebsite.feature:8[0m
-  [32mGiven [0m[32mEnter username[0m           [90m# StepDefinations.SD02_LoginToWebPage.enter_username()[0m
-  [32mThen [0m[32mEnter password[0m            [90m# StepDefinations.SD02_LoginToWebPage.enter_password()[0m
-  [32mAnd [0m[32mClick on login button[0m      [90m# StepDefinations.SD02_LoginToWebPage.click_on_login_button()[0m
-  [32mThen [0m[32mshould be on login screen[0m [90m# StepDefinations.SD02_LoginToWebPage.should_be_on_login_screen()[0m
+@soni
+Scenario Outline: Create an account with valid data                       [90m# src/test/java/FeatureFile/FF03_CreateAnAccount.feature:9[0m
+  [32mGiven [0m[32muser navigates to Create and account screen[0m                       [90m# StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()[0m
+  [32mThen [0m[32mEnter data [0m[32m[1m"FirstName02"[0m[32m, [0m[32m[1m"LastName02"[0m[32m, [0m[32m[1m"EmailAddress02@gmail.com"[0m [90m# StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)[0m
+
+@soni
+Scenario Outline: Create an account with valid data                       [90m# src/test/java/FeatureFile/FF03_CreateAnAccount.feature:10[0m
+  [32mGiven [0m[32muser navigates to Create and account screen[0m                       [90m# StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()[0m
+  [32mThen [0m[32mEnter data [0m[32m[1m"FirstName03"[0m[32m, [0m[32m[1m"LastName03"[0m[32m, [0m[32m[1m"EmailAddress03@gmail.com"[0m [90m# StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)[0m

@@ -1,127 +1,175 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-11-16T08:08:37.067Z",
-        "line": 3,
-        "name": "Navigate to HN website",
+        "start_timestamp": "2022-11-18T06:46:58.120Z",
+        "line": 8,
+        "name": "Create an account with valid data",
         "description": "",
-        "id": "hn-homepage;navigate-to-hn-website",
+        "id": "create-an-account;create-an-account-with-valid-data;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7042252700,
+              "duration": 7551077100,
               "status": "passed"
             },
             "line": 4,
-            "name": "open browser and enter url and navigate to HN website",
+            "name": "user navigates to Create and account screen",
             "match": {
-              "location": "StepDefinations.SD01_NavigateToHNwebsite.open_browser_and_enter_url_and_navigate_to_hn_website()"
+              "location": "StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 104650500,
+              "duration": 666185600,
               "status": "passed"
             },
             "line": 5,
-            "name": "get title and assert",
+            "name": "Enter data \"FirstName01\", \"LastName01\", \"EmailAddress01@gmail.com\"",
             "match": {
-              "location": "StepDefinations.SD01_NavigateToHNwebsite.get_title_and_assert()"
+              "arguments": [
+                {
+                  "val": "\"FirstName01\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"LastName01\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"EmailAddress01@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Regression"
+            "name": "@soni"
           }
         ]
       },
       {
-        "start_timestamp": "2022-11-16T08:08:44.299Z",
-        "line": 8,
-        "name": "Login to webpage",
+        "start_timestamp": "2022-11-18T06:47:06.478Z",
+        "line": 9,
+        "name": "Create an account with valid data",
         "description": "",
-        "id": "hn-homepage;login-to-webpage",
+        "id": "create-an-account;create-an-account-with-valid-data;;3",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+              "duration": 3542000900,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Enter username",
+            "line": 4,
+            "name": "user navigates to Create and account screen",
             "match": {
-              "location": "StepDefinations.SD02_LoginToWebPage.enter_username()"
+              "location": "StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()"
             },
             "keyword": "Given "
           },
           {
             "result": {
+              "duration": 8622405800,
               "status": "passed"
             },
-            "line": 10,
-            "name": "Enter password",
+            "line": 5,
+            "name": "Enter data \"FirstName02\", \"LastName02\", \"EmailAddress02@gmail.com\"",
             "match": {
-              "location": "StepDefinations.SD02_LoginToWebPage.enter_password()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 997100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Click on login button",
-            "match": {
-              "location": "StepDefinations.SD02_LoginToWebPage.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 995800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "should be on login screen",
-            "match": {
-              "location": "StepDefinations.SD02_LoginToWebPage.should_be_on_login_screen()"
+              "arguments": [
+                {
+                  "val": "\"FirstName02\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"LastName02\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"EmailAddress02@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Regression"
+            "name": "@soni"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-18T06:47:18.659Z",
+        "line": 10,
+        "name": "Create an account with valid data",
+        "description": "",
+        "id": "create-an-account;create-an-account-with-valid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4202440900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Create and account screen",
+            "match": {
+              "location": "StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()"
+            },
+            "keyword": "Given "
           },
           {
-            "name": "@SmokeTesting"
+            "result": {
+              "duration": 8555338600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter data \"FirstName03\", \"LastName03\", \"EmailAddress03@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName03\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"LastName03\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"EmailAddress03@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@soni"
           }
         ]
       }
     ],
-    "name": "HN Homepage",
+    "name": "Create an account",
     "description": "",
-    "id": "hn-homepage",
+    "id": "create-an-account",
     "keyword": "Feature",
-    "uri": "file:src/test/java/FeatureFile/FF01_NavigateToHNwebsite.feature",
-    "tags": [
-      {
-        "name": "@Regression",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/java/FeatureFile/FF03_CreateAnAccount.feature",
+    "tags": []
   }
 ]
