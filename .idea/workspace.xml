@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef752f06-ee3f-4156-8a93-4c8fe2caf304" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF03_CreateAnAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF04_CucumberBackground.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF05_TaggedhooksLearning.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF05_hooksLearning.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF06_HooksOrdering.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumCode/AT02_CreatAnAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD03_CucumberBackground_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD04_CucumberBackground_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD05_CreatAnAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD06_HooksLearning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD07_TaggrfHooksLearning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD08_HooksOrdering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF07_TagsUsageInRunnerLearning.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/FF09_TagsUsageInRunnerLearning.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SoumyaProject/.idea/encodings.xml" afterDir="false" />
@@ -114,11 +104,17 @@
       <change beforePath="$PROJECT_DIR$/../RamyaProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RamyaProject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STDOUT" beforeDir="false" afterPath="$PROJECT_DIR$/STDOUT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFile/FF05_TaggedhooksLearning.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF05_TaggedhooksLearning.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFile/FF06_HooksOrdering.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFile/FF06_HooksOrdering.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinations/SD08_HooksOrdering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD08_HooksOrdering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RamyaProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RamyaProject-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Runner.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Runner.TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD08_HooksOrdering.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD08_HooksOrdering.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SuperProject01/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SuperProject01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SuperProject01/.idea/vcs.xml" afterDir="false" />
@@ -217,14 +213,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/softw/IdeaProjects/SonyLearningProject/src/test/java/FeatureFile",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/softw/IdeaProjects/SonyLearningProject/src/test/java/FeatureFile&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\softw\IdeaProjects\SonyLearningProject\src\test\java\FeatureFile" />
@@ -234,15 +230,15 @@
       <recent name="StepDefinations" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: FF06_HooksOrdering">
-    <configuration name="Feature: FF02_ReusageOfSteps" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: FF01_NavigateToHNwebsite" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFile/FF02_ReusageOfSteps.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFile/FF01_NavigateToHNwebsite.feature" />
       <option name="GLUE" value="StepDefinations" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SonyLearningProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FF02_ReusageOfSteps" />
+      <option name="SUGGESTED_NAME" value="Feature: FF01_NavigateToHNwebsite" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -292,14 +288,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: FF06_HooksOrdering" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: FF07_TagsUsageInRunnerLearning" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFile/FF06_HooksOrdering.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFile/FF07_TagsUsageInRunnerLearning.feature" />
       <option name="GLUE" value="StepDefinations" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SonyLearningProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FF06_HooksOrdering" />
+      <option name="SUGGESTED_NAME" value="Feature: FF07_TagsUsageInRunnerLearning" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -311,33 +307,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: This is second Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFile/FF05_hooksLearning.feature" />
-      <option name="GLUE" value="StepDefinations" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SonyLearningProject" />
-      <option name="NAME_FILTER" value="^This is second Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^This is second Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: This is second Scenario" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="Runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: FF06_HooksOrdering" />
-        <item itemvalue="Cucumber Java.Feature: FF05_TaggedhooksLearning" />
-        <item itemvalue="Cucumber Java.Feature: FF02_ReusageOfSteps" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: FF07_TagsUsageInRunnerLearning" />
         <item itemvalue="Cucumber Java.Feature: FF05_hooksLearning" />
-        <item itemvalue="Cucumber Java.Scenario: This is second Scenario" />
+        <item itemvalue="Cucumber Java.Feature: FF01_NavigateToHNwebsite" />
+        <item itemvalue="Cucumber Java.Feature: FF05_TaggedhooksLearning" />
       </list>
     </recent_temporary>
   </component>

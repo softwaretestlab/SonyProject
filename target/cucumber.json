@@ -1,175 +1,237 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-11-18T06:46:58.120Z",
-        "line": 8,
-        "name": "Create an account with valid data",
+        "start_timestamp": "2022-11-27T03:48:20.808Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1993600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD08_HooksOrdering.RunBeforeFifthTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 994400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD08_HooksOrdering.RunBeforeSixthTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD06_HooksLearning.StartTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "tags learning",
         "description": "",
-        "id": "create-an-account;create-an-account-with-valid-data;;2",
+        "id": "tags-usage-in-runner;tags-learning",
+        "after": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD06_HooksLearning.EndTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD08_HooksOrdering.RunAfterSixthTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2990800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD08_HooksOrdering.RunAfterFifthTest()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7551077100,
+              "duration": 997200,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user navigates to Create and account screen",
+            "line": 7,
+            "name": "Tag is called in runner",
             "match": {
-              "location": "StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()"
+              "location": "StepDefinations.FF09_TagsUsageInRunnerLearning.tag_is_called_in_runner()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 666185600,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Enter data \"FirstName01\", \"LastName01\", \"EmailAddress01@gmail.com\"",
+            "line": 8,
+            "name": "that particular tag will run",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"FirstName01\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"LastName01\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"EmailAddress01@gmail.com\"",
-                  "offset": 40
-                }
-              ],
-              "location": "StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinations.FF09_TagsUsageInRunnerLearning.that_particular_tag_will_run()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@soni"
+            "name": "@RegressionTesting"
+          },
+          {
+            "name": "@SmokeTestings"
+          },
+          {
+            "name": "@FirstScenario"
+          },
+          {
+            "name": "@SanityTesting"
           }
         ]
       },
       {
-        "start_timestamp": "2022-11-18T06:47:06.478Z",
-        "line": 9,
-        "name": "Create an account with valid data",
-        "description": "",
-        "id": "create-an-account;create-an-account-with-valid-data;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        "start_timestamp": "2022-11-27T03:48:21.009Z",
+        "before": [
           {
             "result": {
-              "duration": 3542000900,
+              "duration": 997500,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user navigates to Create and account screen",
             "match": {
-              "location": "StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()"
-            },
-            "keyword": "Given "
+              "location": "StepDefinations.SD08_HooksOrdering.RunBeforeFifthTest()"
+            }
           },
           {
             "result": {
-              "duration": 8622405800,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Enter data \"FirstName02\", \"LastName02\", \"EmailAddress02@gmail.com\"",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"FirstName02\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"LastName02\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"EmailAddress02@gmail.com\"",
-                  "offset": 40
-                }
-              ],
-              "location": "StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinations.SD08_HooksOrdering.RunBeforeSixthTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "match": {
+              "location": "StepDefinations.SD06_HooksLearning.StartTest()"
+            }
           }
         ],
-        "tags": [
-          {
-            "name": "@soni"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-18T06:47:18.659Z",
         "line": 10,
-        "name": "Create an account with valid data",
+        "name": "tags learning two",
         "description": "",
-        "id": "create-an-account;create-an-account-with-valid-data;;4",
+        "id": "tags-usage-in-runner;tags-learning-two",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD06_HooksLearning.EndTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD08_HooksOrdering.RunAfterSixthTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.SD08_HooksOrdering.RunAfterFifthTest()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4202440900,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user navigates to Create and account screen",
+            "line": 11,
+            "name": "Tag is called in runner two",
             "match": {
-              "location": "StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()"
+              "location": "StepDefinations.FF09_TagsUsageInRunnerLearning.tag_is_called_in_runner_two()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8555338600,
+              "duration": 997200,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Enter data \"FirstName03\", \"LastName03\", \"EmailAddress03@gmail.com\"",
+            "line": 12,
+            "name": "that particular tag will run two",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"FirstName03\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"LastName03\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"EmailAddress03@gmail.com\"",
-                  "offset": 40
-                }
-              ],
-              "location": "StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinations.FF09_TagsUsageInRunnerLearning.that_particular_tag_will_run_two()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@soni"
+            "name": "@RegressionTesting"
+          },
+          {
+            "name": "@SmokeTestings"
+          },
+          {
+            "name": "@SecondScenario"
+          },
+          {
+            "name": "@SanityTesting"
           }
         ]
       }
     ],
-    "name": "Create an account",
+    "name": "tags usage in runner",
     "description": "",
-    "id": "create-an-account",
+    "id": "tags-usage-in-runner",
     "keyword": "Feature",
-    "uri": "file:src/test/java/FeatureFile/FF03_CreateAnAccount.feature",
-    "tags": []
+    "uri": "file:src/test/java/FeatureFile/FF07_TagsUsageInRunnerLearning.feature",
+    "tags": [
+      {
+        "name": "@RegressionTesting",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 3
+        }
+      },
+      {
+        "name": "@SmokeTestings",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    ]
   }
 ]

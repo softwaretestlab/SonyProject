@@ -1,15 +1,10 @@
 
-@soni
-Scenario Outline: Create an account with valid data                       [90m# src/test/java/FeatureFile/FF03_CreateAnAccount.feature:8[0m
-  [32mGiven [0m[32muser navigates to Create and account screen[0m                       [90m# StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()[0m
-  [32mThen [0m[32mEnter data [0m[32m[1m"FirstName01"[0m[32m, [0m[32m[1m"LastName01"[0m[32m, [0m[32m[1m"EmailAddress01@gmail.com"[0m [90m# StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)[0m
+@RegressionTesting @SmokeTestings @FirstScenario @SanityTesting
+Scenario: tags learning             [90m# src/test/java/FeatureFile/FF07_TagsUsageInRunnerLearning.feature:6[0m
+  [32mGiven [0m[32mTag is called in runner[0m     [90m# StepDefinations.FF09_TagsUsageInRunnerLearning.tag_is_called_in_runner()[0m
+  [32mThen [0m[32mthat particular tag will run[0m [90m# StepDefinations.FF09_TagsUsageInRunnerLearning.that_particular_tag_will_run()[0m
 
-@soni
-Scenario Outline: Create an account with valid data                       [90m# src/test/java/FeatureFile/FF03_CreateAnAccount.feature:9[0m
-  [32mGiven [0m[32muser navigates to Create and account screen[0m                       [90m# StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()[0m
-  [32mThen [0m[32mEnter data [0m[32m[1m"FirstName02"[0m[32m, [0m[32m[1m"LastName02"[0m[32m, [0m[32m[1m"EmailAddress02@gmail.com"[0m [90m# StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)[0m
-
-@soni
-Scenario Outline: Create an account with valid data                       [90m# src/test/java/FeatureFile/FF03_CreateAnAccount.feature:10[0m
-  [32mGiven [0m[32muser navigates to Create and account screen[0m                       [90m# StepDefinations.SD05_CreatAnAccount.user_navigates_to_create_and_account_screen()[0m
-  [32mThen [0m[32mEnter data [0m[32m[1m"FirstName03"[0m[32m, [0m[32m[1m"LastName03"[0m[32m, [0m[32m[1m"EmailAddress03@gmail.com"[0m [90m# StepDefinations.SD05_CreatAnAccount.enter_data(java.lang.String,java.lang.String,java.lang.String)[0m
+@RegressionTesting @SmokeTestings @SecondScenario @SanityTesting
+Scenario: tags learning two             [90m# src/test/java/FeatureFile/FF07_TagsUsageInRunnerLearning.feature:10[0m
+  [32mGiven [0m[32mTag is called in runner two[0m     [90m# StepDefinations.FF09_TagsUsageInRunnerLearning.tag_is_called_in_runner_two()[0m
+  [32mThen [0m[32mthat particular tag will run two[0m [90m# StepDefinations.FF09_TagsUsageInRunnerLearning.that_particular_tag_will_run_two()[0m

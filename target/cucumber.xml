@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="33.591">
-    <testcase classname="Create an account" name="Create an account with valid data" time="8.331">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.606">
+    <testcase classname="tags usage in runner" name="tags learning" time="0.181">
         <system-out>
-            <![CDATA[Given user navigates to Create and account screen...........................passed
-Then Enter data "FirstName01", "LastName01", "EmailAddress01@gmail.com".....passed
+            <![CDATA[Given Tag is called in runner...............................................passed
+Then that particular tag will run...........................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Create an account" name="Create an account with valid data 2" time="12.171">
+    <testcase classname="tags usage in runner" name="tags learning two" time="0.011">
         <system-out>
-            <![CDATA[Given user navigates to Create and account screen...........................passed
-Then Enter data "FirstName02", "LastName02", "EmailAddress02@gmail.com".....passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Create an account" name="Create an account with valid data 3" time="12.76">
-        <system-out>
-            <![CDATA[Given user navigates to Create and account screen...........................passed
-Then Enter data "FirstName03", "LastName03", "EmailAddress03@gmail.com".....passed
+            <![CDATA[Given Tag is called in runner two...........................................passed
+Then that particular tag will run two.......................................passed
 ]]>
         </system-out>
     </testcase>

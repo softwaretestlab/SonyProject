@@ -11,9 +11,11 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",
                 "junit:target/cucumber.xml",
                 "rerun:target/rerun.txt"},
-        tags ="@soni"
-
-
+        tags ="@RegressionTesting or @SecondScenario"
+// tags ="@RegressionTesting or @SecondScenario" -- will run both regressionTesting scenarios
+   //     and SecondScenario
+  // tags ="@RegressionTesting and @SecondScenario" -- will run only scenarios which have
+        // a combination of regressionTesting scenarios and SecondScenario
 )
 public class TestRunner {
 }

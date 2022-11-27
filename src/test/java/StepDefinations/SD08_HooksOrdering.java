@@ -9,21 +9,21 @@ public class SD08_HooksOrdering {
 
     @Before(order=0)
     public void RunBeforeFifthTest(){
-        System.out.println("RunBeforeFifthTest");
+        System.out.println("RunBeforeOrderZero");
     }
     @After(order=0)
     public void RunAfterFifthTest(){
-        System.out.println("RunAfterFifthTest");
+        System.out.println("RunAfterOrderZero");
     }
 
 @Before(order=1)
 public void RunBeforeSixthTest(){
-    System.out.println("RunAfterSixthTest");
+    System.out.println("RunBeforeOrderOne");
 }
 
     @After(order=1)
     public void RunAfterSixthTest(){
-        System.out.println("RunAfterSixthTest");
+        System.out.println("RunAfterOrderOne");
     }
     @Given("this is Fifth given")
     public void this_is_Fifth_given() {
